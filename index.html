@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--Što još dodati? 
+1. Slike na personal projects dijelu (vidjeti kako izgleda)
+2. Napraviti Side bar da svijetli onaj section na kojem je browser trenutno
+4. Tab koji se otvori kad staviš miš iznad matematike i fizike, nabroji sve predmete koje si na faksu imao-->
+<html lang="en-us">
+  <head>
+    <title>
+      Matej Vedak
+    </title>
+    <!-- The following is a link to the Roboto font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Following is the link to the css file-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Following is the link to the JavaScript script file-->
+    <script src="index.js"></script>
+    <!-- jQuery local link-->
+    <script src="https://kit.fontawesome.com/fa7166c234.js" crossorigin="anonymous"></script>
+    <!--- Next line is for better display on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="mainContainer">
+      <div id="leftCollumn">
+        <div id="emptySpace"></div>
+        <div id="sideBar">
+          <ul>
+            <li id="aboutMeLink" class="hoverLink blackLink"><a href="#aboutMeSection">About Me</a></li>
+            <li id="skillsLink" class="hoverLink greenLink"><a href="#skillsAndCertificates">
+                Skills</a></li>
+            <li id="workExperienceLink" class="hoverLink whiteLink"><a href="#workExperience">Work Experience</a></li>
+            <li id="educationLink" class="hoverLink blackLink"><a href="#education">Education</a></li>
+            <li id="personalProjectsLink" class="hoverLink greenLink"><a href="#personalProjects">Personal Projects</a></li>
+            <li id="contactMeLink" class="hoverLink whiteLink"><a href="#contactMe">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="mainContent">
+          <div id="aboutMeSection" class="colorSection">
+            <div class="contentPart">
+              <div id="aboutMeTitle" class="tsblPadding centerText">
+                <h1>About Me</h1>
+              </div>
+              <div id="picAndNameContainer">
+                <div id="nameAndIcon" class="centerText sPadding">
+                    <b>
+                        <i class="fas fa-user"></i>
+                        Matej Vedak
+                    </b>
+                </div>
+                <div id="profilePic">
+                    <img src="Websiteprofilna2.jpg" alt="A picture of me" class="center">
+                </div>
+                <div id="aboutMeText" class="centerText lPadding">
+                    <p>Hi! </p>
+                    <p>Welcome to my webpage. </p>
+                    <p>I'm a third year undergraduate student studying physics at The University
+                    of Edinburgh. 
+                    I'm interested in all things related to mathematics, physics and computer science. </p>
+                    Find out more about me bellow <i class="fas fa-arrow-down"></i>
+                </div>
+              </div>
+              </div>
+          </div>
+          <div id="skillsAndCertificates" class="colorSection">
+            <div class="contentPart">
+              <div id="skillsAndCertificatesTitle" class="centerText tsbmPadding">
+                <i class="fas fa-atlas"></i> <h1>Skills</h1>
+              </div>
+              <div class="centerText sPadding">
+                  <h2>I'm really good at:</h2>
+              </div>
+              <div class="leftText wideText tsbnPadding">
+                <i class="fas fa-calculator"></i> Mathematics
+              </div>
+              <div class="leftText sPadding">
+                  Competed at a national level in highschool.
+              </div>
+              <div class="leftText wideText tsbnPadding">
+                <i class="fas fa-atom"></i> Physics 
+              </div>
+              <div class="leftText sPadding">
+                  Placed third in the national competition two years in a row. <br>
+                  Won a silver medal at the Olympiad of Metropolises in Moscow.
+              </div>
+              <div class="leftText wideText tsbnPadding">
+                <i class="fas fa-laptop-code"></i> Coding
+              </div>
+              <div class="leftText sPadding">
+                  Been coding since primary school. Primarily work in python. <br>
+                  <a href="https://github.com/MatejVe/Solar-System-Simulation/tree/master" target="_blank">See the latest University project here</a>
+              </div>
+              <div class="leftText wideText tsbnPadding">
+                <i class="fab fa-microsoft"></i> Microsoft Office
+              </div>
+              <div class="leftText sPadding">
+                  Word and Excel are a must know tools for doing data analysis and writing reports at the university. <br>
+                  <a href="https://github.com/MatejVe/Radioactivity-Lab-Report" target="_blank">Latest report</a>
+              </div>
+              <div class="leftText wideText tsbnPadding">
+                <i class="fas fa-globe"></i> Languages
+              </div>
+              <div class="leftText tsblPadding">
+                  English Language - Cambridge English Level 3 Certificate in ESOL International (Advanced)* 
+                  <br>
+                  <br>
+                  Croatian Language - native language, I was born in Zagreb <i class="far fa-smile"></i>
+              </div>
+              </div>
+          </div>
+          <div id="workExperience" class="colorSection">
+            <div class="contentPart">
+              <div id="workExperienceTitle" class="centerText tsblPadding">
+                <i class="fas fa-briefcase"></i> <h1>Work Experience</h1>
+              </div>
+              <div class="leftText tsblPadding">
+                <p><b>Front End Developer / CROZ.net </b></p>
+                <p style="color:#009688">
+                    <i class="fas fa-calendar-alt"></i> Jul 2019 - Aug 2019
+                </p>
+                <p>
+                    Web page development. I worked primarily in javascript on implementing the math behind the web application.
+                    <br>
+                    <a href="https://fls-3g.github.io/137/index.html" target="_blank">Link to the website</a>
+                </p>
+              </div>
+              </div>
+          </div>
+          <div id="education" class="colorSection">
+            <div class="contentPart">
+              <div id="educationTitle" class="centerText tsblPadding">
+                <i class="fas fa-book"></i> <h1>Education</h1>
+              </div>
+              <div class="leftText tsblPadding">
+                <p> <b>Physics(MPhys) / The University of Edinburgh</b></p>
+                <p style="color:#990033">
+                    <i class="fas fa-calendar-alt"></i> Sep 2019 - May 2023
+                </p>
+                <p>
+                    This is a 5 years long degree, but I did direct second year entry. Degree is focused on experimental physics and mathematics, 
+                    using modern information technologies and programing to supplement physics learning outcomes. This includes a course in data analysis and computer simulation. 
+                    I finished my second year with A2 (80% - 90%) in all my courses. <br>
+                    <a href="https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=F303" target="_blank">Degree details</a>
+                </p>
+              </div>
+              </div>
+          </div>
+          <div id="personalProjects" class="colorSection">
+            <div class="contentPart">
+              <div id="personalProjectsTitle" class="centerText tsblPadding">
+                <i class="fas fa-tools"></i> <h1>Personal Projects</h1>
+              </div>
+              <div class="leftText tsbnPadding">
+                  <b>LaTeX Notes on Introduction to Complex Analysis</b>
+              </div>
+              <div class="leftText sPadding">
+                  Notes taken on Coursera's course <a href="https://www.coursera.org/learn/complex-analysis/home/welcome" target="_blank">Introduction to Complex Analysis</a>. 
+                  Notes were taken using LaTeX and allowed me to simultaniously learn about different LaTeX features. <br>
+                  <a href="https://github.com/MatejVe/Complex-Analysis-Notes" target="_blank">See the notes here</a>
+              </div>
+              <div class="leftText tsbnPadding">
+                  <b>Python Programme That Recognises Hand-Written Digits</b>
+              </div>
+              <div class="leftText tsbnPadding">
+                  This was my final highschool graduation project. User draws a digit with his mouse, and a simple neural network tries to recognize what digit it is. Made in python. <br>
+                  <a href="https://github.com/MatejVe/Digit-Recognition-in-Python" target="_blank">See the project here</a>
+              </div>
+              <div class="leftText tsbnPadding">
+                <b>Webpage Design</b>
+              </div>
+              <div class="leftText sPadding">
+                Started with my work at CROZ. Decided to expand on it and make my own website. And here I am! This website was completely coded by me.
+              </div>
+              <div class="leftText tsbnPadding">
+                  <b>Bela Blok in Excel</b>
+              </div>
+              <div class="leftText tsblPadding">
+                  Bela is a popular card game in Croatia. I built a simple excel sheet that counts how many points does each team have. Used VBA and learned about macros. (it's made in Croatian)
+                  <br>
+                  <a href="https://github.com/MatejVe/Bela-Blok" target="_blank">Download the excel sheet here</a>
+              </div>
+            </div>
+          </div>
+          <div id="contactMe" class="colorSection">
+            <div class="contentPart">
+              <div id="contactMeTitle" class="centerText tsblPadding">
+                <i class="fas fa-envelope" style="color:#009688"></i> <h1>Contact Me</h1>
+              </div>
+              <div class="leftText sPadding">
+                <b>Get in touch and give me something to do</b>
+              </div>
+              <div class="leftText sPadding">
+                <a href="mailto:M.Vedak@sms.ed.ac.uk">
+                  <i class="far fa-envelope"></i> 
+                  M.Vedak@sms.ed.ac.uk
+                </a>
+                <br>
+                <br>
+                <a href="tel:+385997981999">
+                  <i class="fas fa-phone"></i> 
+                  +385 99 798 1999
+                </a>
+              </div>
+              <div class="centerText tsblPadding">
+                <a href="https://www.facebook.com/matej.vedak.12/" target="_blank">
+                  <i class="fab fa-facebook-f fa-lg" style="height:2em;width:2em"></i>
+                </a>
+                <a href="https://www.instagram.com/matejvedak/" target="_blank">
+                  <i class="fab fa-instagram fa-lg" style="height:2em;width:2em"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/matejvedak/" target="_blank">
+                  <i class="fab fa-linkedin-in fa-lg" style="height:2em;width:2em"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

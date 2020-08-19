@@ -1,0 +1,358 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /*background-image: url("background_2.jpg");*/
+    margin: 0;
+}
+
+/*#mainContainer {
+    display: flex
+}*/
+
+
+#leftCollumn {
+    display: none;
+    width: 100%;
+}
+
+/*#emptySpace {
+    height: 30vh;
+}*/
+
+#sideBar {
+    max-width: 15em;
+    margin: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1em;
+    /*margin-top: 3em;*/
+}
+
+#sideBar ul {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    text-underline-position: below;
+}
+
+#sideBar li {
+    padding: 0.5em;
+    margin-bottom: 0.4em;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    /*color: #000000;*/
+    font-size: 18px;
+    text-decoration: none;
+
+    /*background-color: #ececec;*/
+    border-radius: 3em;
+    border: 0.1em solid #cecece;
+}
+
+.hoverLink{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.hoverLink:hover {
+    opacity: 1;
+}
+
+.blackLink {
+    background: black;
+    color: white;
+}
+
+.blackLink a:link, .blackLink a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.greenLink {
+    background: #607d8b;
+    color: #fff;
+}
+
+.greenLink a:link, .greenLink a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.whiteLink {
+    background: #f1f1f1;
+    color: #757575;
+}
+
+.whiteLink a:link, .whiteLink a:visited {
+    color: #757575;
+    text-decoration: none;
+}
+
+
+#mainContent {
+    width: 100%;
+    /*Font and letter size*/
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-underline-position: below;
+    font-size: 12px;
+    /*Margins and padding*/
+    margin: 0;
+}
+
+.colorSection {
+    /*border-radius: 1%;*/
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.contentPart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.center {
+    display: block;
+    width: 100%;
+}
+
+.centerText {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.leftText {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.rightText {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+/*All the padding combinations t - top, b - bottom, n - no, s - small, m - medium, l - large*/
+.nPadding {padding: 0;}
+.sPadding {padding: 2em 0;}
+.mPadding {padding: 4em 0;}
+.lPadding {padding: 6em 0;}
+.tnbsPadding {padding: 0 0 2em 0;}
+.tnbmPadding {padding: 0 0 4em 0;}
+.tnblPadding {padding: 0 0 6em 0;}
+.tsbnPadding {padding: 2em 0 0 0 ;}
+.tsbmPadding {padding: 2em 0 4em 0;}
+.tsblPadding {padding: 2em 0 6em 0;}
+.tmbnPadding {padding: 4em 0 0 0;}
+.tmbsPadding {padding: 4em 0 2em 0;}
+.tmblPadding {padding: 4em 0 6em 0;}
+.tlbnPadding {padding: 6em 0 0 0;}
+.tlbsPadding {padding: 6em 0 2em 0;}
+.tlbmPadding {padding: 6em 0 4em 0;}
+
+.wideText {
+    letter-spacing: 0.5em;
+}
+
+#aboutMeSection {
+    background: black;
+    color: white;
+}
+
+#aboutMeSection i {
+    color:#990033
+}
+
+#profilePic img {
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+#profilePic img:hover {
+    opacity: 1;
+}
+
+#skillsAndCertificates {
+    background: #607d8b;
+    color: #fff;
+    margin: 0;
+}
+
+#skillsAndCertificates i {
+    color: #C3B1A8;
+}
+
+#skillsAndCertificates a {
+    transition: 0.3s;
+}
+
+#skillsAndCertificates a:link, #skillsAndCertificates a:visited {
+    color: #C3B1A8;
+    text-decoration: none;
+}
+
+#skillsAndCertificates a:hover {
+    color: #fff;
+}
+
+#workExperience {
+    background: #f1f1f1;
+    color: #757575;
+    margin: 0;
+}
+
+#workExperience i {
+    color: #009688;
+}
+
+#workExperience a {
+    transition: 0.3s;
+}
+
+#workExperience a:link, #workExperience a:visited {
+    color: #009688;
+    text-decoration: none;
+}
+
+#workExperience a:hover {
+    color: #757575;
+}
+
+#education {
+    background: black;
+    color: white;
+}
+
+#education i {
+    color:#990033;
+}
+
+#education a {
+    transition: 0.3s;
+}
+
+#education a:link, #education a:visited {
+    color: #990033;
+    text-decoration: none;
+}
+
+#education a:hover {
+    color: white;
+}
+
+#personalProjects {
+    background: #607d8b;
+    color: #fff;
+    margin: 0;
+}
+
+#personalProjects i {
+    color: #C3B1A8;
+}
+
+#personalProjects a {
+    transition: 0.3s;
+}
+
+#personalProjects a:link, #personalProjects a:visited {
+    color: #C3B1A8;
+    text-decoration: none;
+}
+
+#personalProjects a:hover {
+    color: #fff;
+}
+
+#contactMe {
+    background: #f1f1f1;
+    color: #757575;
+}
+
+/*#contactMe i {
+    color: #009688;
+}*/
+
+#contactMe a {
+    transition: 0.3s;
+}
+
+#contactMe a:link, #contactMe a:visited {
+    color: #009688;
+    text-decoration: none;
+}
+
+#contactMe a:hover {
+    color: #757575;
+}
+
+@media only screen and (min-width:600px){
+    /* For tablets */
+    body {
+        background-image: url("background_2.jpg");
+        margin: 8px;
+    }
+
+    #mainContainer {
+        display: flex
+    }
+    
+    #leftCollumn {
+        width: 15%;
+        display: block;
+    }
+
+    #emptySpace {
+        height: 30vh;
+    }
+
+    #mainContent {
+        width: 75%;
+        /*Font and letter size*/
+        font-size: 16px;
+        /*Margins and padding*/
+        padding-left: 0.5em;
+    }
+
+    .colorSection {
+        border-radius: 1%;
+    }
+
+    .hoverLink{
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width:769px){
+    /* For laptops */
+    #leftCollumn {
+        width: 25%;
+    }
+
+    #mainContent {
+        width: 50%;
+    }
+
+    .contentPart {
+        width: 50%;
+    }
+
+    .hoverLink{
+        opacity: 0.5;
+    }
+
+    #profilePic img {
+        opacity: 0.6;
+    }
+
+    #sideBar li.active {
+        opacity: 1;
+    }
+}
