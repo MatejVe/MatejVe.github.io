@@ -39,6 +39,7 @@ body {
 
 #sideBar li {
     margin-bottom: 0.4em;
+    margin-right: 1em;
 }
 
 #sideBar a {
@@ -173,6 +174,19 @@ body {
 
 #aboutMeSection i {
     color:#990033
+}
+
+#aboutMeText a {
+    transition: 0.3s;
+}
+
+#aboutMeText a:link, #aboutMeSection a:visited {
+    color: #990033;
+    text-decoration: none;
+}
+
+#aboutMeText a:hover {
+    color: white;
 }
 
 #profilePic img {
